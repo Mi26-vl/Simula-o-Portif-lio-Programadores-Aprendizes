@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0; /* Remove margens e espaçamentos padrão de todos os elementos */
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255); /* Define o fundo branco da página */
+  }
+  
+  header {
+    background-color: #053370; /* Cor de fundo azul escuro do cabeçalho */
+    height: 180px; /* Altura do cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Utiliza flexbox para organizar os itens */
+    justify-content: space-between; /* Espaça os elementos igualmente */
+  }
+  
+  #Logo {
+    margin-left: 10px; /* Espaço à esquerda do logo */
+    height: 130px; /* Altura do logo */
+  }
+  
+  header nav ul {
+    display: flex; /* Coloca os itens da lista na horizontal */
+    list-style: none; /* Remove os marcadores (bolinhas) da lista */
+  }
+  
+  header nav ul li a {
+    color: rgb(255, 255, 255); /* Cor branca para os links */
+    height: 1000px; /* Altura exagerada (provavelmente desnecessária) */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa a fonte em negrito */
+    display: inline-block; /* Permite definir margens e altura/largura */
+    margin-right: 60px; /* Espaço à direita entre os itens */
+    margin-top: 50px; /* Espaço acima dos links */
+    margin-left: 140px; /* Espaço à esquerda entre os itens */
+  }
+  
+  #Busca {
+    background-color: #E0EEEE; /* Cor de fundo clara */
+    border: solid 2px #5F9EA0; /* Borda azul clara */
+    border-radius: 10px; /* Cantos arredondados */
+    width: 265px; /* Largura do campo de busca */
+    height: 35px; /* Altura do campo de busca */
+    margin-top: 40px; /* Espaço acima */
+  }
+  
+  #textoBusca {
+    float: left; /* Alinha à esquerda */
+    background-color: transparent; /* Fundo transparente */
+    padding-left: 5px; /* Espaçamento à esquerda no texto */
+    font-size: 18px; /* Tamanho da fonte */
+    border: none; /* Remove borda */
+    height: 32px; /* Altura do campo de texto */
+    width: 191px; /* Largura do campo de texto */
+  }
+  
+  #botaoBusca {
+    border: none; /* Remove borda */
+    float: left; /* Alinha à esquerda do campo */
+    height: 32px; /* Altura do botão */
+    border-radius: 0 7px 7px 0; /* Arredonda somente o canto direito */
+    width: 69.6px; /* Largura do botão */
+    font-weight: bold; /* Negrito no texto do botão */
+    background: #5F9EA0; /* Cor de fundo azul clara */
+  }
+  
+  #secao1 {
+    font-size: 30px; /* Tamanho da fonte da seção */
+    margin-top: 50px; /* Espaço acima */
+  }
+  
+  .video {
+    margin-top: 50px; /* Espaço acima */
+    margin-bottom: 140px; /* Espaço abaixo */
+    display: flex; /* Flexbox para centralização */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+  }
+  
+  footer {
+    background-color: #053370; /* Cor de fundo azul escuro */
+    color: #fff; /* Cor do texto branca */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 0px; /* Sem margem inferior */
+    margin-top: 120px; /* Espaço acima do rodapé */
+  }
+  
+  .footer-content {
+    max-width: 800px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o conteúdo */
+  }
+  
+  .sobrenos {
+    font-size: 25px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #conteudosobrenos {
+    text-align: center; /* Centraliza o texto */
+    margin-top: 60px; /* Espaço acima */
+    font-size: 25px; /* Tamanho da fonte */
+  }
+  
+  .experiencias {
+    font-size: 20px; /* Tamanho da fonte */
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  
+  .experiencias ul {
+    margin-top: 20px; /* Espaço acima da lista */
+  }
+  
+  .fotos {
+    display: flex; /* Layout em linha */
+    justify-content: center; /* Centraliza os itens */
+    gap: 150px; /* Espaçamento entre as fotos */
+    margin-top: 90px;
+    margin-bottom: 100px;
+  }
+  
+  .fotos img {
+    width: 250px; /* Largura fixa para imagens */
+    border-radius: 8px; /* Bordas arredondadas */
+  }
+  
+  .contato {
+    text-align: center; /* Centraliza o conteúdo */
+    margin-top: 30px;
+  }
+  
+  #mapa {
+    margin-bottom: 500px; /* Espaço inferior grande */
+  }
+  
+  #frasemapa {
+    margin-bottom: 15px; /* Espaço abaixo da frase */
+  }
+  
+  .area.formulario {
+    border: 1px solid #4158d0; /* Borda azul */
+    border-radius: 15px; /* Bordas arredondadas */
+    width: 500px; /* Largura do formulário */
+    height: auto;
+    padding: 32px; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column; /* Organiza os filhos em coluna */
+  }
+  
+  .formulario {
+    display: flex;
+    justify-content: space-evenly; /* Espaça os campos igualmente */
+    margin: 60px 100px; /* Espaçamento externo */
+  }
+  
+  .campos {
+    display: flex;
+    flex-direction: column; /* Campos empilhados verticalmente */
+    width: 95%; 
+    margin: 10px 0;
+  }
+  
+  .campos .input {
+    border: 1px solid #4158d0; /* Borda azul */
+    border-radius: 5px; /* Bordas arredondadas */
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .formularioUm {
+    width: 560px; /* Largura do formulário */
+    height: 500px; /* Altura */
+  }
+  
+  .form.mapa {
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #4158d0; /* Borda azul */
+    border-radius: 20px; /* Bordas arredondadas */
+  }
+  
+  .form.mapa h2 {
+    margin-bottom: 10px; /* Espaço abaixo do título */
+  }
+  
+  .mapa-contato {
+    width: 560px; /* Largura do mapa */
+    height: 500px; /* Altura do mapa */
+  }
+  
+  .textoFoto {
+    align-items: center; /* Centraliza verticalmente (só funciona em flex) */
+    color: black; /* Cor do texto preta */
+  }
+  
+  .resumo {
+    align-items: center; /* Centraliza verticalmente (só funciona em flex) */
+    justify-content: center; /* Centraliza horizontalmente (idem) */
+    font-size: small; 
+    width: 250px;
+    text-align: justify; /* Justifica o texto */
+    margin-top: 5px;
+  }
+  
+  .video-aside {
+    flex: 1 1 300px; /* Flexível com base de 300px */
+    max-width: 500px; /* Largura máxima */
+    background-color: #ffffff; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    font-size: 1rem; /* Tamanho padrão da fonte */
+    color: #333; /* Cor do texto cinza escuro */
+  }
+  
+  
+   
+  
+  
+    
