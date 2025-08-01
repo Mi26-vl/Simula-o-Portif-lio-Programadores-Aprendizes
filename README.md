@@ -11,7 +11,8 @@ Site de tema portifólio que fala sobre o processo de aprendizado de programador
 ## Como rodar
 1. Clone o projeto
 2. Instale dependências
-3. Rode o arquivo X
+3. Rode o arquivo Simulação Portifolio Programadores Aprendizes
+
 
 ## Autor
 Mirlla Vianna Lenac
